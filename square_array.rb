@@ -1,6 +1,6 @@
 def square_array(some_array)
   some_array = [1,2,3,4,5]
-  some_array.each
+  some_array.each math.sqrt(some_array)
   return new_array
 end
 
